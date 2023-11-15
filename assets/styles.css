@@ -1,0 +1,136 @@
+.nav-list {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav {
+    display: none;
+}
+
+header p {
+    display: inline;
+    position: relative;
+}
+
+.banner, .about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us {
+    flex-direction: column-reverse;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-card {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: inline;
+        position: absolute;
+        right: 0px;
+    }
+
+    .banner, .about-us, .offers {
+        flex-direction: row;
+    }
+
+    .offer-card {
+        width: 33%;
+    }
+}
+
+.tamak{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .tamak h5{
+    color: orange;
+  }
+  
+  .Zakaz{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .Zakaz h5{
+    color:gray;
+  }
+  
+  .Besparmak{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+  }
+  
+  .Mantas{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+  }
+  
+  .Pilaf{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    width: 120px;
+    height: 210px;
+  }
+  
+  .talk{
+    text-align: left;
+    padding: 150px;
+  }
+  
+  .talk h3{
+    color: orange;
+    font-family: sans-serif;
+  }
+  
+  .talk h1{
+    font-family: sans-serif;
+  }
+  
+  .btn2{
+    background-color: sienna;
+    width: 300px;
+    color:white;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .link{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .link h5{
+    color: orange;
+  }
